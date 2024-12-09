@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangwar & Garage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Gangwar UI -->
+    <div id="gangwar-ui" class="ui-panel" style="display: none;">
+        <h1>Gangwar</h1>
+        <div id="gangwar-info">
+            <p>Fraktion: <span id="gangwar-faction">N/A</span></p>
+            <p>Punkte:</p>
+            <ul id="gangwar-points"></ul>
+        </div>
+        <button id="close-gangwar-ui">Schließen</button>
+    </div>
+
+    <!-- Garage UI -->
+    <div id="garage-ui" class="ui-panel" style="display: none;">
+        <h1>Garage</h1>
+        <ul id="garage-vehicles">
+            <!-- Fahrzeugliste wird dynamisch hinzugefügt -->
+        </ul>
+        <div id="garage-controls">
+            <button id="park-vehicle">Fahrzeug Einparken</button>
+            <button id="close-garage-ui">Schließen</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
