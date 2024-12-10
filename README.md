@@ -109,3 +109,5 @@ Es ist besonders einfach anzupassen, da die Konfigurationsoptionen klar definier
 Mit nur minimalem Aufwand (wenn du 5% Gehirnkapazität nutzt 😄) kannst du:
 Zonen, Fraktionen und Events für das Gangwar-System anpassen.
 Garage-Standorte und Fahrzeuglogik ändern.
+
+
